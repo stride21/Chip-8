@@ -11,4 +11,5 @@ First, [download the interpreter](https://drive.google.com/open?id=1AQovEvOPGeSM
                                                   A | S | D | F
                                                   Z | X | C | V
 
-
+# Addition Information
+This is my first emulator project and its still a work in progress. 
