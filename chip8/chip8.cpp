@@ -445,7 +445,7 @@
 		{
 			uint8_t column = 7;
 			uint8_t sprite_byte = memory[index + row];
-			// for loop shifts the bits of each sprite byte to get the pixel value and decrements the column value so its 
+	// i shifts the bits of each sprite byte to get the pixel value and decrements the column value so its in the correct postion 
 			for (int i = 0; i < 8; ++i)
 			{
         // wrap back to the top in the same column if its y value goes off screen
