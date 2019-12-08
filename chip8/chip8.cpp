@@ -448,9 +448,9 @@
 			// for loop shifts the bits of each sprite byte to get the pixel value and decrements the column value so its 
 			for (int i = 0; i < 8; ++i)
 			{
-        // wrap back to the top in the same column if it y value goes off screen
+        // wrap back to the top in the same column if its y value goes off screen
 				unsigned short int yCoordinate = (registers[regY] + row) % 32 ; 
-        // wrap back to the left in the same row if it y value goes off screen
+        // wrap back to the left in the same row if its y value goes off screen
 				unsigned short int xCoordinate = (registers[regX] + column) % 64 ;
 				uint8_t temp = sprite_byte >> i; 
 				pixel = temp & 0x01; // get pixel value
